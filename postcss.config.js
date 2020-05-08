@@ -6,13 +6,13 @@ const purgecss = require('@fullhuman/postcss-purgecss')
 module.exports = {
     plugins: [
         tailwindcss('./tailwind.config.js'),
+        autoprefixer(),
         purgecss({
             content: [
                 './src/**/*.html',
                 './src/**/*.vue'
             ]
         }),
-        autoprefixer(),
         cssnano({
             preset: 'default'
         })

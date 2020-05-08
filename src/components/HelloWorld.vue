@@ -1,14 +1,5 @@
 <template>
-    <div>
-        <h1>Hello world!</h1>
-    </div>
+  <div class="flex items-center justify-center min-h-screen">
+    <h1 class="font-sans text-5xl text-purple-600">Greetings.</h1>
+  </div>
 </template>
-
-<script>
-export default {
-    
-}
-</script>
-
-<style scoped>
-</style>
